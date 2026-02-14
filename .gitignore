@@ -17,6 +17,7 @@ coverage.txt
 
 # Go workspace file
 go.work
+go.work.sum
 
 # Environment variables
 .env
@@ -39,27 +40,6 @@ logs/
 tmp/
 temp/
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Vendor
-vendor/
-
-# Documentation
-docs/swagger.json
-docs/swagger.yaml
-docs/docs.go
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Docker volumes
-data/
-postgres_data/
-redis_data/
-rabbitmq_data/
-prometheus_data/
-grafana_data/
+# Editor/IDE
+# .idea/
+# .vscode/
